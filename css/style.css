@@ -1,0 +1,258 @@
+/* CSS Document */
+/*Header Kodu*/
+
+/*Linki verilen yazı tiplerini ekler Yarar */
+@import url(https://fonts.googleapis.com/css?family=Grand+Hotel);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+body{background-color:#f2f2f2;}
+
+/*Menünün Tasarımı */
+.navbar-default{
+	background-color:#1d89aa; border-radius:0px; border-color:transparent; padding:20px; -webkit-box-shadow: 1px 3px 1px 1px #ABABAB;
+box-shadow: 1px 3px 1px 1px #ABABAB;
+	}
+.navbar-default .navbar-brand{color:#fff; font-size:30px; text-decoration:none; font-family: 'Grand Hotel', cursive;}
+.navbar-default .navbar-brand:hover{color:#fbd79a; font-size:30px; text-decoration:none; font-family: 'Grand Hotel', cursive;}
+.navbar-default .navbar-nav >li>a{color:#fff; margin-left:10px; font-family: 'Poiret One', cursive; font-size:20px; border:#fff solid 1px; border-radius:10px;}
+.navbar-default .navbar-nav >li>a:hover{color:#fbd79a; margin-left:10px; font-family: 'Poiret One', cursive; font-size:20px; border:#fbd79a solid 1px; border-radius:10px; background-color:#0181a8;}
+
+/*Yazı Ortalama Kodu*/
+.navbar .navbar-nav{ display:inline-block; float:none; vertical-align:top;}
+.navbar .navbar-collapse{ text-align:center;}
+/*Yazı Ortalama Kodu*/
+
+/*Header Bitiş*/
+
+
+/*Footer Kodu*/
+
+.row{margin-right:0px;margin-left:0px;}
+.mavi{ background-color:#1d89aa; -webkit-box-shadow: 1px 3px 1px 1px #ABABAB;
+box-shadow: 1px 3px 1px 1px #ABABAB;}
+.hazirlayanlar ul{list-style:none; padding:0;margin:0;}
+.hazirlayanlar li{margin-bottom:5px;line-height:2;border-bottom:1px solid #fbd79a; padding-bottom:2px;}
+.hazirlayanlar li:last-child{border-bottom:none;padding:0;}
+.hazirlayanlar li a{font-size:14px;color:white;}
+.hazirlayanlar li a:hover{font-size:14px; color:#fbd79a;}
+.hazirlayanlar h6,.neyapiyoriz h6{font:100 24px/20px 'Source Sans Pro',sans-serif ;font-family: 'Poiret One', cursive;letter-spacing:-0.05em; font-weight:300; color:#fbd79a; padding:0; margin:0;margin-bottom:15px;}
+.font{padding:20px 0 20px 0;font-size:13px;color:white; font-family:'pt_sansregular',sans-serif;}
+.neyapiyoriz ul{list-style:none; padding:0;margin:0;}
+.neyapiyoriz li{font-size:14px;color:white;font-family:'pt_sansregular',sans-serif;}
+.iletisim a{text-decoration:none;color:white;font-size:25px;margin-top:10px;margin-left:10px;}
+.iletisim a:hover{text-decoration:none;color:#fbd79a;font-size:25px;margin-top:5px;}
+
+
+
+/*Footer Bitiş*/
+
+/*Body Kodu*/
+
+.enson {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#258dc8+16,258dc8+100 */
+background: #258dc8; /* Old browsers */
+background: -moz-linear-gradient(top, #258dc8 16%, #258dc8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #258dc8 16%,#258dc8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #258dc8 16%,#258dc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8',GradientType=0 ); /* IE6-9 */
+
+border:1px solid #777777; border-radius:10px; -webkit-box-shadow: 1px 3px 1px 1px #ABABAB;
+box-shadow: 1px 3px 1px 1px #ABABAB;
+	}
+.konu_alani{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#258dc8+16,258dc8+100 */
+background: #258dc8; /* Old browsers */
+background: -moz-linear-gradient(top, #258dc8 16%, #258dc8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #258dc8 16%,#258dc8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #258dc8 16%,#258dc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8',GradientType=0 ); /* IE6-9 */
+	border:1px solid #777777; border-radius:10px; -webkit-box-shadow: 1px 3px 1px 1px #ABABAB;
+box-shadow: 1px 3px 1px 1px #ABABAB;
+	
+	}
+.devamini_oku{list-style:none;}
+.devamini_oku > li > a{text-decoration:none; margin-top:-20px; font-size:15px; border:1px solid #fbd79a; font-family:'PT Sans', sans-serif;padding:10px; background:color#087eb0; color:#fbd79a;float:right;margin-right:40px;}
+.devamini_oku > li > a:hover{color:#383838; background-color:white;border-color:#ffb570;}
+.fa-calendar { color:#fbd79a; margin-left:20px;}
+.fa-calendar > a{text-decoration:none; color:#f2f2f2; font-family:'PT Sans', sans-serif; font-size:16px;}
+.fa-calendar > a:hover{color:#fbd79a;}
+
+.fa-line-chart { color:#fbd79a;}
+.fa-line-chart > a{text-decoration:none; color:#f2f2f2; font-family:'PT Sans', sans-serif; font-size:16px;}
+.fa-line-chart > a:hover{color:#fbd79a;}
+
+.fa-sitemap { color:#fbd79a; margin-top:10px;}
+.fa-sitemap > a{text-decoration:none; color:#f2f2f2; font-family:'PT Sans', sans-serif; font-size:16px;}
+.fa-sitemap > a:hover{color:#fbd79a;}
+
+.fa-tags { color:#fbd79a; margin-left:30px;}
+.fa-tags > a{text-decoration:none; color:#f2f2f2; font-family:'PT Sans', sans-serif; font-size:16px;}
+.fa-tags > a:hover{color:#fbd79a;}
+
+.fa-clock-o { color:#fbd79a; margin-left:30px;}
+.fa-clock-o > a{text-decoration:none; color:#f2f2f2; font-family:'PT Sans', sans-serif; font-size:16px;}
+.fa-clock-o > a:hover{color:#fbd79a;}
+
+.fa-eye { color:#fbd79a; margin-left:30px;}
+.fa-eye > a{text-decoration:none; color:#f2f2f2; font-family:'PT Sans', sans-serif; font-size:16px;}
+.fa-eye > a:hover{color:#fbd79a;}
+
+.fa-th-large { color:#fbd79a; margin-left:30px;}
+.fa-th-large > a{text-decoration:none; color:#f2f2f2; font-family:'PT Sans', sans-serif; font-size:16px;}
+.fa-th-large > a:hover{color:#fbd79a;}
+
+.fa-hashtag { color:#fbd79a; margin-left:30px;}
+.fa-hashtag > a{text-decoration:none; color:#f2f2f2; font-family:'PT Sans', sans-serif; font-size:16px;}
+.fa-hashtag > a:hover{color:#fbd79a;}
+
+
+
+.fa-calendar { color:#fbd79a; margin-left:20px;}
+.fa-calendar > a{text-decoration:none; color:#f2f2f2; font-family:'PT Sans', sans-serif; font-size:16px;}
+.fa-calendar > a:hover{color:#fbd79a;}
+
+.sira {background-color:#1d89aa;padding:5px;border:2px solid #ff9;color:white;border-radius:5px;font-family:'PT Sans', sans-serif; -webkit-box-shadow: 1px 3px 1px 1px #ABABAB;
+box-shadow: 1px 3px 1px 1px #ABABAB; margin-left:5px;}
+.sira:hover{color:#ff9;text-decoration:none;}
+.konu_kisalt{list-style:none;color:white;padding-right:10px;font-family:'PT Sans', sans-serif;}
+
+/*Yazi Sayfası Düzenleme*/
+
+.istatistik_alani .fa-bookmark{margin-left:-20px;color:#fbd79a;}
+.istatistik_alani .fa-bookmark > a{text-decoration:none;color:#f2f2f2;font-family:'PT Sans',sans-serif;font-size:16px;}
+.istatistik_alani .fa-bookmark > a:hover{color:#fbd79a;}
+
+.istatistik_alani .fa-eye{margin-left:-20px;}
+.istatistik_alani .fa-clock-o{margin-left:-20px;}
+
+.fa-bar-chart{margin-left:20px;color:#fbd79a;}
+.fa-bar-chart > a{text-decoration:none;color:#f2f2f2;font-family:'PT Sans',sans-serif;font-size:16px;}
+.fa-bar-chart > a:hover{color:#fbd79a;}
+
+#icerik{background-color:#f5f5f5}
+#disicerik{background-color:#F5F5F5;border:1px #999 solid;padding:20px; border-radius:15px}
+#konu_adi{background-color:transparent;color:#1d89aa;list-style-type:none;font-family:'PT Sans',sans-serif;font-weight:bold;margin-left:-22px;font-size:20px;}
+#konu_icerik{background-color:transparent;color:black;list-style-type:none;font-family:'PT Sans',sans-serif;margin-left:-22px;}
+
+/*Yazi Sayfası Bitiş*/
+
+/*Yönetici Paneli*/
+
+.ck {width:700px;}
+.yonetim_menu{text-align:center;background-color:#333;height:25px;-webkit-box-shadow: 1px 3px 1px 1px #ABABAB;
+box-shadow: 1px 3px 1px 1px #ABABAB;font-family:'PT Sans',sans-serif;}
+.yonetim_menu > ul > li{display:inline;text-decoration:none;list-style-type:none;padding:20px;}
+.yonetim_menu > ul > li > a{color:#fff;}
+.yonetim_menu > ul > li > a:hover{color:#fbd79a;}
+.giris
+{
+  background-color:#087eb0;
+  padding-top:5px;
+  padding-bottom:5px;
+  border:2px solid #ff9;
+  color:white;
+  border-radius:5px;
+  -webkit-box-shadow: 1px 3px 1px 1px #ABABAB;
+  box-shadow: 1px 3px 1px 1px #ABABAB;
+  font-family:'PT Sans',sans-serif;
+  width: 70px;
+  height: 30px;
+}
+.giris:hover{color:#ff9;}
+
+
+/*Yönetici Paneli Bitiş*/
+
+/*Hakkında Sayfası*/
+.a{font-family:'PT Sans',sans-serif;color:#20A7D0;font-size:20px;}
+
+
+/*Hakkında Sayfası*/
+
+
+
+
+/* Wobble Top Üstüne Gelinen Butonun Hareket Kodu */
+@-webkit-keyframes wobble-top {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+
+@keyframes wobble-top {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+
+.wobble-top {
+  display: inline-block;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.wobble-top:hover, .wobble-top:focus, .wobble-top:active {
+  -webkit-animation-name: wobble-top;
+  animation-name: wobble-top;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
